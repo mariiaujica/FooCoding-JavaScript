@@ -1,0 +1,50 @@
+img {
+	max-width:100%;
+	
+}
+html{
+	background-color: rgba(224, 217, 217, 0.637);
+}
+h2,h3{
+	text-align:center;
+	color:rgb(48, 47, 47);
+}
+.character{
+	overflow:hidden;
+	background-color: rgb(252, 249, 249);
+	padding:1vw;
+	width:15%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.characterDarker{
+	filter: brightness(90%);
+}
+.characterDarker .info{
+	display:flex;
+}
+.leftPara{
+	width:50%;
+	text-align:left;
+	font-weight:bold;
+	padding-right:1vw;
+	float:left;
+}
+.rightPara{
+	width:50%;
+	float:right;
+	text-align: right;
+}
+.info{
+	display:none;
+
+}
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	align-content: space-between;
+	column-gap: 1em;
+	row-gap: 1em;
+	align-items:stretch;
+}
+
+
