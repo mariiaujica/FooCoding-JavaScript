@@ -1,0 +1,28 @@
+img{
+  padding:5%;
+  width:15%;
+  box-shadow: 0 0 0 0 rgb(224, 142, 176);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(207, 21, 179, 0.524);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(117, 25, 179, 0.305);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+body{
+    background-color:palevioletred;
+}
