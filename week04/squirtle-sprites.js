@@ -17,13 +17,13 @@ function fetchPokemonData() {
   const div = document.createElement("div");
   document.body.appendChild(div);
   
-  const poke = Object.keys(pokemon);
+  const character = Object.keys(pokemon);
   
-  for (let i = 0; i < poke.length; i++) {
+  for (let i = 0; i < character.length; i++) {
     const imgs = document.createElement("img");
   
-    if (pokemon[poke[i]]) {
+    if (pokemon[character[i]]) {
       div.appendChild(imgs);
-      imgs.src = pokemon[poke[i]];
+      imgs.src = pokemon[character[i]];
     }
   }
