@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mariia Ujica portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+ 
+    <header>
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">MU</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bio">Personal/Bio</a></li>
+            <li class="services">
+              <a href="#skills">Skills</a>
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="#skills">HTML </a></li>
+                <li><a href="#skills">CSS</a></li>
+                <li><a href="#skills">JavaScript</a></li>
+                <li><a href="#skills">REACT</a></li>
+                <li><a href="#skills">UX</a></li>
+              </ul>
+            </li>
+            <li><a href="#myWork">My work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+        </div>
+        <div class="greetings">
+        <h1 class="greet"><span>Hi</span>!<br><span>I</span>'m Masha<span>,</span><br>Web <span>Develop</span>er</h1>
+          <h2 class="workTitle"><span>Front End </span>Developer / UX Enthusiast</h2>
+        <form action="https://i9s131x56za.typeform.com/to/e77qPuII"><button class="button" role="button">Contact me</button></form> 
+      </div>
+    </header>
+      <main>
+      <body>
+        <canvas id="bg">
+        </canvas>
+        <!--<div id="app"></div>-->
+        <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r99/three.module.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three@0.101.1/examples/js/controls/OrbitControls.js"></script>
+        <script  src="main.js"></script>
+        <div id="bio" class="bio">
+          <h2 class="bioTitle">About me</h2>
+          <p class="bioInfo">
+            Hello! My name is Mariia Ujica. I'm a passionate front end developer with an interest in UX design and new technologies.<br><br>
+            I'm quite new into programming, so I'm still in a stage where i see programming as pure magic. That's my advantage, because it makes me deeply commited and determined to my work goals. <br><br>
+            I see obstacles and challenges as a place to grow and develop myself both personally and professionally.
+          </p> 
+        </div>
+        <div id="skills" class="skills">
+          <h2 class="skillsTitle">My Skills</h2>
+          <div class="skillsIcons">
+            <div class="imghover"class="html">  
+              <img  src="../images/html.png">
+                <div class="hoverinfo"> 
+                  <p>HTML</p>
+                </div>
+            </div>    
+            <div class="imghover" class="css"> 
+              <img  src="../images/css.png">
+              <div class="hoverinfo"> 
+                <p>CSS</p>
+              </div>
+            </div>
+            <div class="imghover" class="java">
+               <img  src="../images/java.png">
+               <div class="hoverinfo"> 
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div class="imghover" class="creativity"> 
+              <img  src="../images/creativity.png">
+              <div class="hoverinfo"> 
+                <p>Creativity</p>
+              </div>
+            </div>
+            <div class="imghover" class="magic" >
+              <img  src="../images/magic.png">
+              <div class="hoverinfo"> 
+                <p>A bit of magic</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="myWork" class="myWork">
+          <div class="myWorkTitleCon">
+            <h2 class="myWorkTitle">My work</h2> 
+            </div>
+            <div class="awwwards">
+              <h3 class="awwwardsTitle"><a href="https://mariiaujica.github.io/FooCoding-html-css/week3/">Replication of awwwards website</a></h3>
+              <img class="myWorkImg" src="../images/awwwards.jpg">
+              <img class="myWorkImg" src="../images/siteoftheday.jpg">
+            </div>
+            <div class="abramovich">
+              <h3 class="abramovichTitle"><a href="https://mariiaujica.github.io/FooCoding-html-css/week3/">Tribute page to Marina Abramovich</a></h3>
+              <img class="myWorkImg" src="../images/abramovic.png">
+            </div>
+            <div class="catshelter">
+              <h3 class="catshelterTitle"><a href="https://mariiaujica.github.io/FooCoding-html-css/week3/">Cat Shelter landing page</a></h3>
+              <img class="myWorkImg" src="../images/catshelterr.png">
+            </div>
+
+        </div>
+        
+
+        </div>
+   
+  </main>
+  </body>
+</html>
